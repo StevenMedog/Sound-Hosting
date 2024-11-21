@@ -25,6 +25,18 @@ Your browser does not support the audio element.
 
 </audio>
 
+<button onclick="document.getElementById('myAudio').play()">Play</button>
+
+<button onclick="document.getElementById('myAudio').pause()">Pause</button>
+
+<button onclick="document.getElementById('myAudio').volume+=0.1">Volume Up</button>
+
+<button onclick="document.getElementById('myAudio').volume-=0.1">Volume Down</button>
+
+</div>
+  
+<div class="audio-player">
+
 <audio id="myAudio" controls>
 
 <source src="Splat.mp3" type="audio/mpeg">
@@ -43,7 +55,6 @@ Your browser does not support the audio element.
 <button onclick="document.getElementById('myAudio').volume-=0.1">Volume Down</button>
 
 </div>
-
 
 
 </body>
